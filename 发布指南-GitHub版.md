@@ -6,7 +6,7 @@
 ```
 李瀚源学术主页-GitHub版/
 ├── index.html   ← 主页（所有论文可点击）
-├── papers/      ← 18 份论文 PDF（单篇 0.3~5MB）
+├── papers/      ← 16 份论文 PDF（单篇 0.3~5MB）
 └── 发布指南-GitHub版.md
 ```
 
@@ -23,7 +23,7 @@
 2. 在仓库页面点 `Add file` → `Upload files`
 3. 打开本文件夹，**全选里面的内容**（index.html + papers 文件夹 + 本文件）
    一起拖进上传框；确认文件列表里能看到 `papers/` 开头的路径
-4. 点 `Commit changes`，等上传完成（18 份 PDF 共 33MB，约 1 分钟）
+4. 点 `Commit changes`，等上传完成（16 份 PDF 共约 28MB，约 1 分钟）
 
 ## 开启公开访问（GitHub Pages）
 
@@ -44,8 +44,11 @@ git commit -m "更新"
 git push
 ```
 
+**删除某个文件**：在 GitHub 网页上进入 `papers` 文件夹 → 点开该 PDF →
+右上角垃圾桶图标 → `Commit changes`。
+
 ## 已验证
 
-- 18 个本地 PDF 链接全部有效（0 缺失）
-- 最大单文件 5.0MB（遂宁 SSR 论文），全部低于 25MB 网页上传限制
+- 16 个本地 PDF 链接全部有效（0 缺失）
+- 最大单文件约 5MB（遂宁 SSR 论文），全部低于 25MB 网页上传限制
 - 主页其余功能（论文列表、DOI 外链、筛选按钮）与完整版完全一致
